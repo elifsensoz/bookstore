@@ -1,0 +1,130 @@
+.blogTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* Text */
+
+    color: #0D0842;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.newsSliderArea {
+    position: absolute;
+    top: 59px;
+    background: yellow;
+
+}
+
+.arrowLeft {}
+
+.arrowRigth {}
+
+
+.newsSliderContent {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 1240px;
+    height: 190px;
+    left: 2px;
+    top: 6px;
+    
+}
+
+.newsBG {
+    position: relative;
+    width: 610px;
+    height: 190px;
+    border-radius: 15px;
+}
+
+.newsTextArea {
+    position: absolute;
+    top: 7.89%;
+    bottom: 10%;
+    background: greenyellow;
+
+}
+
+.newsTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    //padding: 10px;
+    //gap: 10px;
+
+    position: absolute;
+    width: 312px;
+    height: 40px;
+    //left: 30px;
+    //top: 15px;    
+
+
+}
+
+.newsDescription {
+    position: absolute;
+    right: 30.49%;
+    top: 42.11%;
+    bottom: 10%;
+
+    /* Website/Body m (Desc)
+    
+    Product descriprion, News descriprion (Website)
+    */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    //line-height: 19px;
+
+    /* Text */
+
+    color: #0D0842;
+
+}
+
+.line {
+    position: absolute;
+    
+    left: 0.33%;
+    right: 85.25%;
+    top: 28.95%;
+    bottom: 73.16%;
+
+    /* General color */
+    /*
+    left: 6.56%;
+    right: 85.25%;
+    top: 36.84%;
+    bottom: 63.16%;
+    */
+    border: 2px solid #FFCE1A;
+    
+}
+
+.newsPhoto {
+    position: absolute;
+    left: 76.56%;
+    right: 3.28%;
+    top: 8.95%;
+    bottom: 8.95%;
+
+    background: url("../../../public/assets/blog/news1.png");
+    border-radius: 5px;
+}

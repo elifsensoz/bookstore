@@ -1,0 +1,83 @@
+.footerMenu {
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    left: 0px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 172px;
+    height: 24px;
+    left: 1168px;
+    top: 356px;
+    background: white;
+}
+
+.footerLogo {
+    position: absolute;
+    width: 97px;
+    height: 90px;
+    left: 100px;
+    top: 39px;
+    background: url("../../../public/assets/footer/Logo.png");
+}
+
+.footerMenuUpper {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 439px;
+height: 25px;
+left: calc(50% - 439px/2 - 400.5px);
+top: 169px;
+}
+
+.footerMenuUpperText {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #0D0842;
+}
+
+.footerMenuLower {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 46px;
+
+position: absolute;
+width: 552px;
+height: 25px;
+left: calc(50% - 552px/2 - 344px);
+top: 355px;
+
+&:hover {
+    background: red;
+  }
+}
+
+.subscribeByMailArea {
+  position: absolute;
+  left: 886px;
+  top: 76px;
+  /*
+
+width: 454px;
+height: 118px;
+background: palegreen;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+*/
+}
+

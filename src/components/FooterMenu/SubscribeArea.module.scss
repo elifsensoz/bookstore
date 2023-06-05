@@ -1,0 +1,55 @@
+.subscribeByEmailTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .subscribeToStayTunedForNewProduct {
+    height: 37.29%;
+    color: rgba(13, 8, 66, 1);
+    align-self: stretch;
+    margin-bottom: 38px;
+    //@include website-body-l-filter-price;
+  }
+  .subscribeByEmail {
+    align-self: stretch;
+  }
+
+  .subscribeByEmail {
+    display: flex;
+    align-items: center;
+  }
+  .subscribe {
+    align-self: stretch;
+  }
+
+  .enter {
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    padding: 6px 72px 6px 24px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid rgba(255, 206, 26, 1);
+  }
+  .subscribe {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(108, 108, 108, 0.5);
+  }
+
+  .subscribeTwo {
+    background-color: rgba(255, 206, 26, 1);
+    border-radius: 0px 8px 8px 0px;
+    padding: 7px 49px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .subscribeButton {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(255, 255, 248, 1);
+    text-align: center;
+  }

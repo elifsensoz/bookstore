@@ -1,0 +1,126 @@
+.navigationBar {
+    position: absolute;
+width: 1240px;
+height: 36px;
+left: 100px;
+top: 35px;
+
+}
+.basket {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 7px 40px 7px 15px;
+gap: 20px;
+
+position: absolute;
+width: 146px;
+height: 36px;
+left: 1094px;
+
+/* General color */
+
+background: #FFCE1A;
+border-radius: 8px;
+
+}
+
+.basketText{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* BG color (Website) */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.search {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px 60px 7px 15px;
+gap: 15px;
+
+position: absolute;
+width: 296px;
+height: 36px;
+left: 124px;
+
+background: #EAEAEA;
+border-radius: 8px;
+
+}
+
+.searchText{
+    /*Text style*/
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #828282;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.searchIcon{
+    width: 16px;
+height: 16px;
+
+/* Text */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.menu {
+    position: absolute;
+width: 24px;
+height: 18px;
+left: 0px;
+top: 9px;
+}
+
+.favorite {
+    position: absolute;
+width: 25px;
+height: 20px;
+left: 1029px;
+top: 8px;
+
+}
+
+.account {
+    position: absolute;
+width: 18px;
+height: 22px;
+left: 981px;
+top: 7px;
+}
